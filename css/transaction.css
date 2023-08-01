@@ -1,0 +1,48 @@
+.transaction{
+background-image: url('../images/transaction-bg.png');
+background-position: right;
+background-repeat: no-repeat;
+background-color: #e8e8e6;
+block-size: 775px;
+
+}
+
+.transaction-content{
+  max-inline-size: 27.8rem;
+  margin-block-start: 13rem;
+}
+
+.transaction-title{
+  font: var(--headline2);
+  color: var(--black);
+}
+.transaction-subtitle{
+  font: var(--body1-regular);
+  color: var(--grey);
+
+}
+
+
+@media screen and (max-width:1000px){
+
+  .transaction{
+    block-size: 100%;
+    margin-block-end: -.75rem;
+    justify-items: center;
+  }
+
+  .transaction-content{
+    margin-block: 0;
+    padding-inline:1.25rem;
+
+  }
+  .transaction-title{
+    font: var(--headline5);
+  
+  }
+  .transaction-subtitle{
+    font: var(--body2-regular);
+  }
+
+  
+}

@@ -1,0 +1,45 @@
+.avatar-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 12.5rem;
+
+}
+
+.avatar-content img{
+  block-size: 100%;
+}
+
+.avatar-content p{
+  max-inline-size: 27.875rem;
+  margin: 0;
+}
+.avatar-title{
+  font: var(--headline2);
+  padding-block-start: 4rem;
+  padding-block-end: 1.5rem;
+}
+.avatar-subtitle{
+  font: var(--body1-regular)
+}
+
+@media screen and (max-width:1000px){
+
+  .avatar-content{
+    padding-block: 4rem;
+    padding-inline: 1.5rem;
+  }
+
+  .avatar-title{
+    padding-block-start: 0;
+    font: var(--headline5);
+  }
+  .avatar-subtitle{
+    font: var(--body2-regular)
+  }
+
+  .avatar-image{
+    order: 2;
+  }
+}

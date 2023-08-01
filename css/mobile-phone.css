@@ -1,0 +1,11 @@
+.mobile-phone{
+  padding-block: 4rem;
+  text-align: center;
+  display: none;
+}
+
+@media screen and (max-width:1000px){
+  .mobile-phone{ 
+    display: block;
+  }
+}
